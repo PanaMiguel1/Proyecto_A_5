@@ -1,0 +1,120 @@
+body {
+    background-color: #3D4038;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .contenedor {
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+
+  .login {
+    background-color: #FFFDE8;
+    position: absolute;
+    width: 739px;
+    height: 826px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }
+  
+  .imagen-login {
+    width: 300px; /* Ancho deseado */
+    height: 200px; /* Alto deseado */
+    position: relative;
+    top: 30px; /* Distancia de 30px del borde superior */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Ajustar para centrar horizontalmente */
+  }
+  
+  .login h1 {
+    margin-top: 40px;
+    font-size: 64px;
+    color: #000;
+    position: relative;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 45px;
+  }
+  
+
+
+  .login label {
+    display: block;
+    color: #3D4038;
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    text-align: left;
+    width: 100%;
+    padding-left: 45px;
+  }
+
+  .login label[for="password"] {
+    margin-top: 30px; /* Ajustar para posicionar el label debajo del input CORREO */
+  }
+
+  .login input {
+    display: block;
+    margin-top: 15px;
+    width: 544px;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 2px solid #3D4038;
+    background-color: transparent;
+    color: #000;
+    font-size: 24px;
+    margin-right: 54px;
+    margin-left: 54px;
+  }
+
+  .login input:not(:first-of-type) {
+    margin-top: 6px;
+  }
+  
+  .boton-login {
+    display: block;
+    width: 174px;
+    height: 56px;
+    background-color: #3D4038;
+    color: #FFF;
+    font-size: 32px;
+    margin-left: 45px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  .boton-login:hover {
+    background-color: #0098EE;
+    transform: scale(0.95);
+  }
+  
+  .back-button {
+    display: block;
+    width: 174px;
+    height: 56px;
+    background-color: #0098EE; /* Azul */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: 45px;
+    margin-top: 70px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #004286; 
+  }
+  .fa-arrow-left {
+    font-size: 24px; 
+  }

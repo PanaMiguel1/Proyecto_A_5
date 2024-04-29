@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selección de Ruta Gastronómica</title>
+<link rel="stylesheet" href="/css/Vista-Turista.css">
+<!-- Referencia al archivo JavaScript aquí -->
+<script src="/js/scrip.js"></script>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Selección de ruta gastronómica</h1>
+  
+  <div class="profile-box">
+    <img src="/img/icons8-usuario-48.png" alt="Perfil">
+    <p>Perfil</p>
+  </div>
+
+  <button class="logout-button" onclick="location.href='/html/index.html';">Log Out</button>
+</div>
+  
+  <div class="campo-container">
+   <div class="main-content">
+     <!-- Ejemplo de un cuadro con información de un restaurante -->
+     <div class="card">
+      <img src="/img/restaurante foto 1.jpg" alt="Restaurante" class="card-img">
+      <div class="card-info">
+        <h2>Ruta de comida de mar</h2>
+        <div class="horizontal-container">
+          <p>MAR ANTILLAS</p>
+          <p>LA PERLA</p>
+          <p>ANA BAR</p>
+          <p>MASAKI WOK</p>
+        </div>
+        <button class="select-button" onclick="location.href='/html/selecion_horarios_personas.html'; return false;">SELECCIONAR</button>
+      </div>
+    </div>
+    
+    <!-- Tarjeta de Restaurante Adicional 1 -->
+    <div class="card">
+      <img src="/img/foto restaurante 2.jpg" alt="Restaurante" class="card-img">
+      <div class="card-info">
+        <h2>Sabores Asiáticos</h2>
+        <div class="horizontal-container">
+          <p>SUSHI</p>
+          <p>RAMEN</p>
+          <p>TEMPURA</p>
+          <p>TERIYAKI</p>
+        </div>
+        <button class="select-button">SELECCIONAR</button>
+      </div>
+    </div>
+    
+    <!-- Tarjeta de Restaurante Adicional 2 -->
+    <div class="card">
+      <img src="/img/foto restaurante 3.jpg" alt="Restaurante" class="card-img">
+      <div class="card-info">
+        <h2>Aromas de Italia</h2>
+        <div class="horizontal-container">
+          <p>PIZZA</p>
+          <p>PASTA</p>
+          <p>RISOTTO</p>
+          <p>TIRAMISU</p>
+        </div>
+        <button class="select-button">SELECCIONAR</button>
+      </div>
+    </div>
+    
+    <!-- Tarjeta de Restaurante Adicional 3 -->
+    <div class="card">
+      <img src="/img/restaurante 4.jpg" alt="Restaurante" class="card-img">
+      <div class="card-info">
+        <h2>Experiencia Mexicana</h2>
+        <div class="horizontal-container">
+          <p>TACOS</p>
+          <p>ENCHILADAS</p>
+          <p>GUACAMOLE</p>
+          <p>CHURROS</p>
+        </div>
+        <button class="select-button">SELECCIONAR</button>
+      </div>
+    </div>
+    
+    <!-- Tarjeta de Restaurante Adicional 4 -->
+    <div class="card">
+      <img src="/img/foto restaurente 5.png" alt="Restaurante" class="card-img">
+      <div class="card-info">
+        <h2>Grill Americano</h2>
+        <div class="horizontal-container">
+          <p>BURGER</p>
+          <p>STEAK</p>
+          <p>RIBS</p>
+          <p>APPLE PIE</p>
+        </div>
+        <button class="select-button">SELECCIONAR</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="sidebar">
+    <h3>Mis rutas gastronómicas</h3>
+    <div class="route-box">
+      <p>Ruta de asados</p>
+      <button class="view-button">VER</button>
+    </div>
+    <div class="route-box-1">
+      <p>Ruta de asados</p>
+      <button class="view-button-1">VER</button>
+    </div>
+    <div class="route-box-2">
+      <p>Ruta de asados</p>
+      <button class="view-button-2">VER</button>
+    </div>
+    
+    <!-- Cajas que se mostrarán después de hacer clic en "Ver más" -->
+    <div class="route-box-3" style="display: none;">
+      <p>Ruta de asados</p>
+      <button class="view-button-3">VER</button>
+    </div>
+    <div class="route-box-4" style="display: none;">
+      <p>Ruta de asados</p>
+      <button class="view-button-4">VER</button>
+    </div>
+    <div class="route-box-5" style="display: none;">
+      <p>Ruta de asados</p>
+      <button class="view-button-5">VER</button>
+    </div>
+    <button class="more-button" onclick="toggleRoutes()">Ver más</button>
+  </div>
+
+</body>
+</html>

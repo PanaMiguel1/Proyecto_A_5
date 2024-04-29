@@ -1,0 +1,98 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bg {
+  background-image: url('/img/wp3350877-cartagena-wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 1024px; /* Ajustamos la altura mínima para la vista de 1440 x 1024 */
+}
+
+.titulo {
+  color: white;
+  font-size: 64px;
+  position: absolute;
+  left: 50%;
+  top: 124px;
+  transform: translateX(-50%);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.texto {
+  color: white;
+  font-size: 64px;
+  position: absolute;
+  left: 50%;
+  top: 546px;
+  transform: translateX(-50%);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.foto {
+  position: absolute;
+  left: 50%;
+  top: 230px;
+  width: 324px;
+  height: 287px;
+  background-image: url('/img/logo_3-removebg-preview\ \(1\).png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translateX(-50%);
+}
+
+.boton {
+  background-color: #3D4038;
+  color: white;
+  width: 275px;
+  height: 122px;
+  border: none;
+  position: absolute;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 10px;
+  transition: transform 0.3s ease;
+  border-radius: 20px;
+}
+
+/* Posicionamiento de los botones de manera horizontal */
+#boton1 { left: calc(50% - (1367px / 2) + 0px); top: 716px; }
+#boton2 { left: calc(50% - (1367px / 2) + 275px + 89px); top: 716px; }
+#boton3 { left: calc(50% - (1367px / 2) + (275px + 89px) * 2); top: 716px; }
+#boton4 { left: calc(50% - (1367px / 2) + (275px + 89px) * 3); top: 716px; }
+
+.boton:hover {
+  transform: scale(0.95);
+  background-color: #0098EE;
+}
+
+/*inteno fallido de adaptable*/
+@media only screen and (min-width: 375px) and (max-width: 412px)  {
+  .titulo {
+    font-size: 32px; 
+    top: 50px; 
+  }
+
+  .texto {
+    font-size: calc(1.5rem + 2vw); 
+  }
+  .boton {
+    font-size: calc(1rem + 1vw); 
+    padding: calc(5px + 1vw); 
+  }
+
+  
+}
+
+
+/*vista de selccion de ruta gastronomica*/
+

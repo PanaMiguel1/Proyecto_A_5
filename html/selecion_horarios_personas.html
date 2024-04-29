@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TG CARTAGENA</title>
+    <script src="/js/selecion_horarios_personas.js"></script>
+    <link rel="stylesheet" href="/css/selecion_horarios_personas.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Seleccione los horarios y personas</h1>
+        <img src="/img/logo_en_amarillo-removebg-preview.png" alt="Imagen" class="imagen-login">
+    </div>
+    
+    <div class="restaurant-container">
+        <div class="restaurant">
+            <img src="/img/masaki.jpeg" alt="Imagen 1">
+            <div class="text-overlay">Masaki Wok</div>
+            <div class="text-below-image">Hora</div>
+            <div class="second-text">7:00 AM - 5:00 PM</div>
+            <div class="estado" id="status-container">ABIERTO</div>
+            
+            <div class="select-hora">
+                <label for="start">Seleccione:</label>
+                <select id="time-selector" class="time-selector">
+                </select>
+            </div>
+            <div class="select-fecha">
+                <label for="start">Seleccione:</label>
+                <input type="date" id="start1" name="trip-start" min="" max="2030-12-31" />
+            </div>
+        </div>
+
+        <div class="restaurant">
+            <img src="/img/masaki.jpeg" alt="Imagen 1">
+            <div class="text-overlay">Mar Antilla</div>
+            <div class="text-below-image">Hora</div>
+            <div class="second-text">7:00 AM - 5:00 PM</div>
+            <div class="estado" id="status-container">ABIERTO</div>
+
+            <div class="select-hora">
+                <label for="start">Seleccione:</label>
+                <select class="time-selector">
+                </select>
+            </div>
+            <div class="select-fecha">
+                <label for="start">Seleccione:</label>
+                <input type="date" id="start2" name="trip-start" min="" max="2030-12-31" />
+            </div>
+        </div>
+
+        <div class="restaurant">
+            <img src="/img/la perla.jpeg" alt="Imagen 1">
+            <div class="text-overlay">La Perla</div>
+            <div class="text-below-image">Hora</div>
+            <div class="second-text">7:00 AM - 5:00 PM</div>
+            <div class="estado" id="status-container">ABIERTO</div>
+
+            <div class="select-hora">
+                <label for="start">Seleccione:</label>
+                <select class="time-selector">
+                </select>
+            </div>
+            <div class="select-fecha">
+                <label for="start">Seleccione:</label>
+                <input type="date" id="start3" name="trip-start" min="" max="2030-12-31" />
+            </div>
+        </div>
+
+        <div class="restaurant">
+            <img src="/img/ana.jpeg" alt="Imagen 1">
+            <div class="text-overlay">Ana R. Bar</div>
+            <div class="text-below-image">Hora</div>
+            <div class="second-text">7:00 AM - 5:00 PM</div>
+            <div class="estado" id="status-container">ABIERTO</div>
+
+            <div class="select-hora">
+                <label for="start">Seleccione:</label>
+                <select class="time-selector">
+                </select>
+            </div>
+            <div class="select-fecha">
+                <label for="start">Seleccione:</label>
+                <input type="date" id="start4" name="trip-start" min="" max="2030-12-31" />
+            </div>
+        </div>
+
+    </div>
+
+    <div class="end-buttons">
+        <div class="select-personas">
+            <label for="numero-personas">Seleccione:</label>
+            <select id="numero-personas"></select>
+        </div>
+        <button id="cancel-button" class="cancel-button" onclick="location.href='/html/vista-Turista-Ruta.html'; return false;">CANCELAR</button>
+        <button id="done-button" class="done-button" onclick="location.href='/html/vista-Turista-Ruta.html'; return false;">HECHO</button>
+    </div>
+</body>

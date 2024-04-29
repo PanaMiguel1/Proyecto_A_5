@@ -1,0 +1,180 @@
+body {
+    background-color: #3D4038;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .contenedor {
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .login, .crear-usuario {
+    background-color: #FFFDE8;
+    position: absolute;
+  }
+  
+  .login {
+    width: 739px;
+    height: 826px;
+    left: 105px;
+    top: 105px;
+  }
+  
+  .imagen-login {
+    width: 165px;
+    height: 120px;
+    position: absolute;
+    margin-left: 45px;
+    left: 0;
+    top: 0;
+  }
+  
+  .login h1  {
+    margin-top: 40px;
+    font-size: 64px;
+    color: #000;
+    position: relative;
+    text-align: left;
+    top: 70px;
+    margin-bottom: 80px;
+    margin-left: 45px;
+  }
+  
+  .crear-usuario h1 {
+    margin-top: 38px;
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+  }
+
+  .login label {
+    display: block;
+    color: #3D4038;
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: left;
+    width: 100%;
+    padding-left: 45px;
+  }
+
+  .login label[for="password"] {
+    margin-top: 30px; 
+  }
+
+  .crear-usuario input {
+    display: block;
+    color: #3D4038;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  
+  .login input {
+    display: block;
+    margin-top: 15px;
+    width: 544px;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 2px solid #3D4038;
+    background-color: transparent;
+    color: #000;
+    font-size: 24px;
+    margin-right: 54px;
+    margin-left: 54px;
+  }
+
+  .login input:not(:first-of-type) {
+    margin-top: 6px;
+  }
+
+  .crear-usuario input {
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 2px solid #3D4038;
+    background-color: transparent;
+    color: #000;
+    font-size: 24px;
+  }
+  
+  .boton-login, .boton-crear {
+    display: block;
+    width: 174px;
+    height: 56px;
+    background-color: #3D4038;
+    color: #FFF;
+    font-size: 32px;
+    margin-left: 45px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  .boton-login:hover, .boton-crear:hover {
+    background-color: #0098EE;
+    transform: scale(0.95);
+  }
+  
+  .back-button {
+    display: block;
+    width: 174px;
+    height: 56px;
+    background-color: #0098EE; /* Azul */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 45px;
+    margin-top: 180px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #004286; 
+  }
+  .fa-arrow-left {
+    font-size: 24px; 
+  }
+
+  .crear-usuario {
+    width: 470px;
+    height: 826px;
+    right: 105px;
+    top: 105px;
+  }
+  
+  .crear-usuario input {
+    width: 364px;
+    height: 68px;
+    background-color: #3D4038;
+    color: #FFF;
+    font-size: 31px;
+    margin: 20px auto;
+  }
+  
+  .crear-usuario input::placeholder {
+    color: #FFF;
+    font-size: 27px;
+  }
+  
+  .boton-crear {
+    width: 155px;
+    height: 56px;
+    background-color: #0098EE;
+    color: #FFF;
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .boton-crear:hover {
+    background-color: #000;
+    transform: scale(0.95);
+  }

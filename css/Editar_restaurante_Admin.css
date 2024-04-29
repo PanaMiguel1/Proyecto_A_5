@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFDE8;
+}
+
+.banner {
+    background-color: #3D4038;
+    color: white;
+    height: 138px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 44px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.logo-image {
+    margin-left: 260px;
+    width: 160;
+    height: 100px;
+}
+
+.btn-close {
+    color: red;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 38px;
+}
+
+.btn-close:hover {
+    color: darkred;
+}
+
+.background {
+    background-color: #FFFDE8;
+    width: 1440px;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+}
+
+.container {
+    background-color: #3D4038;
+    width: 1397px;
+    height: 193px;
+    margin: 0 auto 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.color-nombre {
+    background-color: #56594A;
+    width: 790px;
+    height: 84;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-name {
+    color: white;
+    margin-left: -200px;
+}
+
+.restaurant-name-green {
+    color: #34C800;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+}
+
+.edit-button {
+    background-color: #44A783;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    color: white;
+    margin-left: 10px;
+    padding: 10px 20px;
+    width: 264px;
+    height: 112px;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Agrega una transición al cambio de color */
+}
+.delete-button {
+    background-color: #FF0000;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    color: white;
+    margin-left: 10px;
+    padding: 10px 20px;
+    width: 264px;
+    height: 112px;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Agrega una transición al cambio de color */
+}
+
+.edit-button:hover {
+    background-color: #34765e; /* Cambia el color al pasar el mouse */
+}
+
+.delete-button:hover {
+    background-color: #b90707; /* Cambia el color al pasar el mouse */
+}

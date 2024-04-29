@@ -1,0 +1,190 @@
+body {
+    background-color: #FFFDE8;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #3D4038;
+    width: 1440px;
+    height: 116px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  
+  .header h1 {
+    font-size: 42px;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #Cerrar {
+    color: #FF0000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  #Cerrar:hover {
+    color: #8B0000;
+  }
+
+  .container {
+    margin-top: 146px; /* height of header plus some space */
+    padding-left: 30px;
+    width: 920px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .margen {
+    margin-bottom: 30px;
+  }
+  .Resena {
+    background-color: #0098EE;
+    border-radius: 10px;
+    color: white;
+    font-size: 38px;
+    margin-bottom: 30px;
+    height: 175px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .Resena p {
+    text-align: left;
+    margin: 0px;
+    margin-left: 25px;
+  }
+
+  .date-container {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .star {
+    font-size: 55px;
+    color: white; /* Color inicial (blanco) */
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  .star.selected {
+    color: yellow; /* Color cuando está seleccionada (amarillo) */
+  }
+
+  .promedio-container {
+    position: fixed;
+    right: 30px;
+    top: 146px;
+    width: 520px;
+    height: 540px;
+    background: transparent;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .promedio-container h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-align: center;
+  }
+  
+  .promedio {
+    background-color: #3D4038;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 299px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .barra {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+.promedio-ruta {
+    background-color: #0098EE;
+    border-radius: 10px;
+    color: white;
+    font-size: 38px;
+    margin-bottom: 30px;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+    .promedio-ruta h1 {
+        font-size: 32px;
+    }
+
+  .resena-container {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    width: 220px;
+    height: 50px;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .resena-total {
+      margin-top: 20px;
+      margin-bottom: 0;
+      text-align: center;
+      font-size: 30px; 
+  }
+
+  
+
