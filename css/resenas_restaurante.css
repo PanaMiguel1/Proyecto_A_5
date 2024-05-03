@@ -18,6 +18,12 @@ body {
     z-index: 10;
   }
   
+  .logo-image {
+    margin-left: 20px;
+    width: 160;
+    height: 100px;
+  }
+
   .header h1 {
     font-size: 42px;
   }
@@ -107,9 +113,9 @@ body {
   .promedio-container {
     position: fixed;
     right: 30px;
-    top: 146px;
+    top: 135px;
     width: 520px;
-    height: 540px;
+    height: 600px;
     background: transparent;
     background-size: cover;
     border-radius: 10px;
@@ -117,6 +123,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
+    padding-top: 8px;
   }
   
   .promedio-container h1 {
@@ -125,18 +133,6 @@ body {
     text-align: center;
   }
   
-  .promedio {
-    background-color: #3D4038;
-    font-size: 40px;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 20px;
-    width: 299px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
   .barra {
     display: flex;
@@ -150,18 +146,31 @@ body {
     background-color: #0098EE;
     border-radius: 10px;
     color: white;
-    font-size: 38px;
-    margin-bottom: 30px;
-    height: 400px;
+    margin-bottom: 40px;
+    height: 220px;
     width: 500px;
-    position: relative;
+    top: 16px;
+    position: absolute;
     flex-direction: column;
     display: flex;
     align-items: center;
   }
-    .promedio-ruta h1 {
-        font-size: 32px;
-    }
+  .promedio-ruta h1 {
+    font-size: 32px;
+  }
+  
+  .promedio-ruta:first-child {
+    position: absolute;
+    top: 10px; /* 10px desde la parte superior del contenedor padre */
+    /* ... otros estilos ... */
+  }
+  
+  /* Segundo contenedor .promedio-ruta */
+  .promedio-ruta:last-child {
+    position: absolute;
+    top: calc(10px + 250px + 20px); /* Altura del primer contenedor + 100px de espacio */
+    /* ... otros estilos ... */
+  }
 
   .resena-container {
     background-color: transparent;
@@ -171,7 +180,7 @@ body {
     width: 220px;
     height: 50px;
     position: absolute;
-    top: 25%;
+    top: calc(16px + 40px + 40px);
     transform: translateY(-50%);
     display: flex;
     flex-direction: row;
@@ -183,7 +192,7 @@ body {
       margin-top: 20px;
       margin-bottom: 0;
       text-align: center;
-      font-size: 30px; 
+      font-size: 20px; 
   }
 
   

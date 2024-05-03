@@ -94,3 +94,7 @@ body {
 .admin-button:hover {
     background-color: #005a8d; /* Cambia al color azul oscuro al pasar el mouse */
 }
+
+.empty-container {
+    visibility: hidden;
+}
